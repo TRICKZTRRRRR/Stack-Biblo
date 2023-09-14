@@ -35,5 +35,9 @@ namespace Stack.Model
         #region List
         public List<Book> books = new List<Book>();
         #endregion
+
+        #region Stack
+        public Stack<Book> loanBook = new Stack<Book>();
+        #endregion
     }
 }
